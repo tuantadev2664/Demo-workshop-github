@@ -11,3 +11,5 @@ def gcd(a, b):
         return gcd(a, b % a)
     
 print(gcd(a,b))
+
+print("hihi")
