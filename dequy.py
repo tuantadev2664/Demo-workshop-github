@@ -6,7 +6,7 @@ def gcd(a, b):
     if(a > b):
         return gcd(b, a % b)
     elif(a != b):
-        return a
+        return c
     else:
         return gcd(a, b % a)
     
