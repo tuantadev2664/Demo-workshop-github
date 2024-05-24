@@ -5,8 +5,8 @@ def gcd(a, b):
         return a
     if(a > b):
         return gcd(b, a % b)
-    elif(a != b):
-        return c
+    elif(a == b):
+        return abc
     else:
         return gcd(a, b % a)
     
